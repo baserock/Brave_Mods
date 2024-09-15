@@ -1,0 +1,9 @@
+! name: Australian Shopping Sites
+! description: restricts search results to australian websites.
+! public: false
+! author: baserock
+
+! This will do for now...
+*com.au^
+
+
