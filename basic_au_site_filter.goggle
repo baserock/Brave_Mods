@@ -1,12 +1,11 @@
 {
+  "version": "1.0",
+  "schema": "https://w3id.org/brave/goggles.schema.json",
   "name": "Australian Websites",
-  "description": "Limit searches to Australian domains (.au)",
-  "rules": {
-    "include": [
-      {
-        "domain": "*.au"
-      }
-    ]
-  }
+  "description": "Limits search results to Australian domains (.au)",
+  "include": [
+    {
+      "pattern": "*.au"
+    }
+  ]
 }
-
